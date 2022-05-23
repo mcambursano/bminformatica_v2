@@ -1,0 +1,21 @@
+{
+  "name": "entrega_proyecto_final_v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss style/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcambursano/bminformatica_proyectofinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcambursano/bminformatica_proyectofinal/issues"
+  },
+  "homepage": "https://github.com/mcambursano/bminformatica_proyectofinal#readme",
+  "description": ""
+}
